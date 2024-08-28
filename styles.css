@@ -29,7 +29,7 @@
 
 
 
-
+/* Hero 1 -------------------------------------*/
 
 .hero1{
     margin-top: 100px;
@@ -79,6 +79,26 @@
 
 
 
+/* Hero 2 -------------------------------------*/
+
+.hero2-bg{
+    width: 1140px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ddd8d82f;
+}
+
+
+
+.fa-circle-user{
+    padding: 15px;
+    color: #b64a4a;
+    font-size: 40px;
+    background-color: #FFECEC;
+    border: 5px solid FFECEC;
+    border-radius: 30px;
+}
 
 
 
@@ -91,11 +111,7 @@
 
 
 
-
-
-
-
-
+/* Media -------------------------------------*/
 
 
 @media (max-width:1100px) {
@@ -118,3 +134,22 @@
         margin-top: 40px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
