@@ -279,6 +279,76 @@
 
 
 
+/* Hero 7-------------------------------------  */
+
+.card1{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.hero7h{
+    color: #0B132A;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 128.571% */
+}
+
+.hero7p{
+    color: #4F5665;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.get-background1{
+    width: 211.829px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(27px);
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    right: 0px;
+}
+
+.subscribe{
+    width: 240px;
+}
+
+
+/* Footer Bg-------------------------------------  */
+
+
+
+
+.footer-bg{
+    width: 100%;
+    height: 563.12px;
+    background: #F8F8F8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -297,6 +367,9 @@
         position: relative;
         right: 10px;
     }
+    .get-background1{
+        margin-right: 20px;
+    }
 }
 
 @media (min-width:998px){
@@ -310,8 +383,18 @@
         margin-top: 80px;
         margin-bottom: 60px;
     }
+    .hero7txt{
+        margin-left: 250px;
+    }
+    
 }
 
+
+@media (max-width:768px){
+    .get-background1{
+       margin-left: 150px;
+    }
+}
 
 @media (max-width:430px){
     .card-title{
@@ -320,6 +403,11 @@
     .card-titles{
         font-size: 11px;
     }
+    .get-background1{
+        display: flex;
+        position: relative;
+        right: 85px;
+     }
 }
 
 
