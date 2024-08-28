@@ -81,24 +81,77 @@
 
 /* Hero 2 -------------------------------------*/
 
-.hero2-bg{
-    width: 1140px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #ddd8d82f;
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-item {
+    width: calc(100% / 3 - 20px);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.card-icon i {
+    font-size: 24px;
+    color: #f00;
+    line-height: 50px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 500px) {
+    .card-item {
+        width: 100%;
+    }
 }
 
 
 
-.fa-circle-user{
-    padding: 15px;
-    color: #b64a4a;
-    font-size: 40px;
-    background-color: #FFECEC;
-    border: 5px solid FFECEC;
-    border-radius: 30px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
