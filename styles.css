@@ -25,7 +25,9 @@
     color: red;
 }
 
-
+.nav-item:hover{
+    color: red;
+}
 
 
 
@@ -334,18 +336,14 @@
     height: 563.12px;
     background: #F8F8F8;
 }
-
-
-
-
-
-
-
-
-
-.footer {
-    background-color: #fff;
+.footer-bg{
+    width: 100%;
+    height: 563.12px;
+    background: #F8F8F8;
     padding: 30px 0;
+}
+.footer{
+    margin-top: 150px;
 }
 .social-links a {
     margin: 0 10px;
@@ -361,18 +359,27 @@
     justify-content: space-around;
 }
 .footer-col {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 
+.footer-col ul li {
+    list-style-type: none;
+   
+}
 
+.footer-col ul li a{
+    color: #4F5665;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    text-decoration: none;
+}
 
-
-
-
-
-
-
+.footer-col ul li a:hover {
+    color: red;
+}
 /* Media -------------------------------------*/
 
 
@@ -388,6 +395,9 @@
     }
     .get-background1{
         margin-right: 20px;
+    }
+    .footer-bg{
+        height: 600px;
     }
 }
 
@@ -418,6 +428,9 @@
     .get-background1{
        margin-left: 150px;
     }
+    .footer-bg{
+        height: 700px;
+    }
 }
 
 @media (max-width:430px){
@@ -432,68 +445,7 @@
         position: relative;
         right: 85px;
      }
+     
 }
-
-
-
-/* Media ------------------------------------
-
-
-.footer {
-    background-color: #f2f2f2;
-    padding: 40px 0;
-  }
-  
-  .footer-logo {
-    width: 150px;
-  }
-  
-  .social-icons {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-  }
-  
-  .social-icons li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .social-icons li a {
-    color: #333;
-    font-size: 20px;
-  }
-  
-  .footer-links {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-links li {
-    margin-bottom: 10px;
-  }
-  
-  .footer-links li a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .footer-links li a:hover {
-    text-decoration: underline;
-  }
-  
-  @media (max-width: 768px) {
-    .col-md-4 {
-      margin-bottom: 20px;
-    }
-  }
-
-
--*/
-
-
-
-
-
 
 
