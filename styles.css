@@ -131,7 +131,7 @@
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 .card-titles {
@@ -313,7 +313,14 @@
 }
 
 
-
+@media (max-width:430px){
+    .card-title{
+        font-size: 14px;
+    }
+    .card-titles{
+        font-size: 11px;
+    }
+}
 
 
 
