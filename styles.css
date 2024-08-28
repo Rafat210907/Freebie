@@ -1,0 +1,124 @@
+.ntop{
+    margin-top: 5px;
+}
+
+.signin{    
+    color: #0B132A;
+    font-family: 'Poppins' 'sans-serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.signup{
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: 0.5px solid #F53855;
+    flex-shrink: 0;
+    
+}
+.a{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
+.hero{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+.hero1-h1{
+    color: #0B132A;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px; /* 140% */
+}
+.hero1-p{
+    color: #4F5665;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.get-started{
+    padding-top: 12px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background: #F53838;
+}
+
+.get-background{
+    width: 211.829px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(27px);
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .ntopb{
+        margin-top: 10px;
+        display: flex;
+        position: relative;
+        right: 10px;
+    }
+}
+
+@media (min-width:998px){
+    .get-button{
+        margin-top: 60px;
+    }
+    .hero1-p{
+        margin-top: 40px;
+    }
+}
